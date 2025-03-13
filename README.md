@@ -1,3 +1,30 @@
+Welcome to my portfolio! This repository showcases my web development skills and projects. Feel free to explore the code<br />
+
+<h1>Technologies Used</h1>
+
+<ul>
+  <li>HTML: For structuring the content on the web.</li>
+    <li>CSS: For styling and making the layout responsive.</li>
+    <li>Bootstrap: For building responsive, mobile-first projects quickly.</li>
+    <li>JavaScript: For interactive features and dynamic content.</li>
+    <li>SweetAlert2: For customizing alert popups for a better user experience.</li>
+   <li>React Icons: For including beautiful, scalable icons in the application.</li>
+    <li>Web3Forms: For creating easy contact forms with integration for Web3 support.</li>
+</ul>
+
+  <h1>Features</h1>
+<ul>
+    <li> Responsive Design: The portfolio is fully responsive across all devices. </li>
+     <li>Dynamic Alerts: SweetAlert2 is used to show custom alert popups. </li>
+     <li>Interactive Icons: I used React Icons to add modern icons that enhance the UI. </li>
+     <li>Contact Form: Integrated Web3Forms for a contact form to make it easy to reach out. </li>
+
+</ul>
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
