@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "degree": "Bachelor degree of computer science",
+      "organisation": "St Edmund college",
+      "startDate": "2016 -",
+      "endDate": "2019",
+      "location": "Meghalaya, Shillong",
+      "imageSrc": "education/college.png"
+    },
+    {
+      "id": 2,
+      "school": "Higher Secondary School",
+      "organisation": "St Mary's college",
+      "startDate": "2014 -",
+      "endDate": "2016",
+      "location": "Meghalaya, Shillong",
+       "imageSrc": "education/school.png"
+    }
+]
