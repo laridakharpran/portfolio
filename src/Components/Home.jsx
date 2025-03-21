@@ -8,6 +8,8 @@ export const Home = () => {
     <div  id="Home" className='container home'>
     <div className='left'>
      <h1> Hi my name is Larida Kharpran</h1>
+     Im frontend Developer, here my resume
+     <br/>
       <a 
       href={pdf} 
       download="resume.pdf" 

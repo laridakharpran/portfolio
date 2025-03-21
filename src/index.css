@@ -44,6 +44,7 @@ text-decoration: none;
 color: white;
 position: relative;
 cursor: pointer;
+
 }
 a{
   text-decoration: none;
@@ -65,6 +66,7 @@ a:hover{
   background: #fff;
   line-height: 0;
   cursor: pointer;
+
 }
 
 /*media*/
@@ -112,12 +114,14 @@ a:hover{
   display: flex;
   justify-content:space-around;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .home .left{
   background-color: var(--bg-color);
   text-align: center;
   width: 650px;
+  margin: 30px;
   padding: 30px;
   border-radius: 10%;
   border: 1px solid yellow;
@@ -172,7 +176,7 @@ a:hover{
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-color);
-  margin: 20px;
+  margin: 30px;
   padding: 30px;
   width: 800px;
   border-radius: 10%;
@@ -223,7 +227,6 @@ a:hover{
   background-color: var(--bg-color);
   text-align: center;
   width: 400px;
-  height: 100vh; 
   border-radius: 10%;
   border: 1px solid yellow;
   color: white;
