@@ -5,10 +5,9 @@
 
 
 body {
-  margin: 0;
   background-color: rgb(147, 172, 56);
   color: white;
-  text-decoration: none;
+  font-family:'Times New Roman', Times, serif
 }
 
 
@@ -28,13 +27,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  margin:0 auto;
+  padding: 1rem;
   }
   
 nav ul{
   display: flex;
-align-items: center;
+  align-items: center;
   gap: 1.5rem;
   list-style: none;
 }
@@ -222,10 +220,10 @@ a:hover{
 
 /*Contact Section*/
 .contact{
-  display: flex;
   background-color: var(--bg-color);
   text-align: center;
   width: 400px;
+  height: 100vh; 
   border-radius: 10%;
   border: 1px solid yellow;
   color: white;
@@ -240,6 +238,8 @@ form{
   box-shadow: var(--box-shadow);
   margin:25px;
  background:white;
+ display: flex;
+ flex-direction: column;
  align-items: center;
  color:grey;
 }
@@ -290,8 +290,8 @@ form button:hover {
   background-color: black;
   border-radius: 100%;
   margin:10px;
-  height:70px;
-  width:70px;
+  height:40px;
+  width:40px;
   border:1ps solid yellow;
 }
 .container-icon .items:hover{

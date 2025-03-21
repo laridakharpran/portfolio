@@ -5,10 +5,11 @@ export const Education = () => {
   return (
     <>
      <div id="Education" className="container edu"> 
-      <h1>EDUCATION</h1>
+      <h1 align="center">EDUCATION</h1>
       {education.map((data) => {
         return(
           <>
+          <div align="center">
           <div  key={data.id} className="edu-items text-center">
                   <div className="left">
                   <img src={`/asset/${data.imageSrc}`} alt="" />
@@ -24,6 +25,7 @@ export const Education = () => {
                   <span style={{ color: "yellow" }}>{data.location}</span>
                   </h5>
                 </div>
+          </div>
           </div>
          </>
           );

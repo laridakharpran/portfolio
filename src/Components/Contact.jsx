@@ -28,16 +28,17 @@ export const Contact = () => {
     if (res.success) {
       Swal.fire({
         title: "success!",
-        text: "\Message send successfully",
+        text: "Message send successfully",
         icon: "success"
       });
     }
   };
   return (
     <> 
-    <div id="Contact">
-    <h1>CONTACT</h1></div>
-    <section className="contact">
+    <div id="Contact" align="center">
+    <h1>CONTACT</h1>
+    </div>
+    <section className="contact"> 
     <form onSubmit={onSubmit}>
     <h2>Contact Me</h2>
     <div className="input-box">
@@ -54,9 +55,9 @@ export const Contact = () => {
     </form>
     </section>
     <div className='container-icon'>
-     <a href="https://www.facebook.com/larida.kharpran/about/" target="_blank" className="items"><ImFacebook2 className='icon' /></a>
-     <a href="https://github.com/laridakharpran" target="_blank" className="items"><FaGithub  className='icon' /></a>
-     <a href="https://www.linkedin.com/in/larida-kharpran-8819681a1" target="_blank" className="items"><FaLinkedin  className='icon' /></a>
+     <a href="https://www.facebook.com/larida.kharpran/about/" target="blank" className="items"><ImFacebook2 className='icon' /></a>
+     <a href="https://github.com/laridakharpran" target="blank" className="items"><FaGithub  className='icon' /></a>
+     <a href="https://www.linkedin.com/in/larida-kharpran-8819681a1" target="blank" className="items"><FaLinkedin  className='icon' /></a>
     </div>
       </>
    )
