@@ -48,7 +48,7 @@ export const Contact = () => {
           <input type="email" className="feild" placeholder="enter yor email" name="email" required/>
         </div>
         <div className="input-box">
-          <label align-text="center">Your Message</label>
+          <label align="center">Your Message</label>
           <textarea name="message" id="" placeholder="enter your message" required></textarea>
         </div>
         <button type="submit">Send message</button>
