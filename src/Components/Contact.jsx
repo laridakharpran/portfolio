@@ -42,14 +42,14 @@ export const Contact = () => {
     <form onSubmit={onSubmit}>
     <h2>Contact Me</h2>
     <div className="input-box">
-          <label>Full Name</label>
+          <label align-text="center">Full Name</label>
           <input type="text" className="feild" placeholder="enter yor name" name="name" required/>
-          <label>Email Address</label>
+          <label align-text="center">Email Address</label>
           <input type="email" className="feild" placeholder="enter yor email" name="email" required/>
         </div>
         <div className="input-box">
-          <label>Your Message</label>
-          <textarea name="message" className="feildmes" id="" placeholder="enter your message" required></textarea>
+          <label align-text="center">Your Message</label>
+          <textarea name="message" id="" placeholder="enter your message" required></textarea>
         </div>
         <button type="submit">Send message</button>
     </form>
